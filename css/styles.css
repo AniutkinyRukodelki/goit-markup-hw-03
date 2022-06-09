@@ -88,7 +88,6 @@ body {
   color: var(--text-color-theme-dark);
 }
 .services-list {
-  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -139,12 +138,14 @@ body {
   margin-left: 50px;
 }
 .logo-text-blue {
+  display: inline-block;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-bottom: 20px;
 }
 .logo-text-black {
   font-family: var(--secondary-font);
@@ -175,6 +176,7 @@ body {
 }
 .header-mail-adress,
 .header-phone-number {
+  padding: 32px 0;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -193,11 +195,11 @@ body {
 
 /* ============= HERO ============= */
 .hero {
+  padding: 200px 0;
   background-color: var(--background-color-dark);
   text-align: center;
 }
 .hero-title {
-  margin-bottom: 30px;
   display: block;
   font-weight: 900;
   font-size: 44px;
@@ -206,6 +208,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-theme-dark);
+  width: 696px;
+  margin-left: auto;
+  margin-right
+  
+  : auto;
+  margin-bottom: 30px;
 }
 /* ============= /HERO ============= */
 /* ============= ABOUT ============= */
@@ -218,6 +226,9 @@ body {
 }
 .about-item:not(:last-child) {
   margin-right: 30px;
+}
+.about {
+  padding-bottom: 0;
 }
 /* ============= /ABOUT ============= */
 /* ============= SERVICES ============= */
@@ -240,6 +251,7 @@ body {
 .employees-item {
   flex-basis: calc(100% / 4 - 30px);
   margin: 15px;
+  background-color: var(--secondary-color);
 }
 .employees-title {
   margin-bottom: 50px;
@@ -284,9 +296,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color-theme-dark);
-}
-.logo-footer {
-  margin-bottom: 20px;
 }
 .contact-list-item {
   margin-bottom: 9px;
@@ -404,7 +413,7 @@ body {
   margin-bottom: 56px;
 }
 .portfolio-nav-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .project-container {
   display: flex;
