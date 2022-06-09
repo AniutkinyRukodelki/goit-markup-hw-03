@@ -228,6 +228,9 @@ body {
 .about {
   padding-bottom: 0;
 }
+.about-title {
+  opacity: 0;
+}
 /* ============= /ABOUT ============= */
 /* ============= SERVICES ============= */
 .services-list {
@@ -398,6 +401,9 @@ body {
   font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.portfolio-title {
+  opacity: 0;
 }
 /* ============= /PORTFOLIO COMPONENTS ============= */
 /* ============= PORTFOLIO PROJECT ============= */
